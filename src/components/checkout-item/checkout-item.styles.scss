@@ -23,7 +23,27 @@
     }
   
     .quantity {
-      padding-left: 20px;
+      display: flex;
+
+      .grayed {
+        cursor: not-allowed;
+        pointer-events: none;
+
+        /*Button disabled - CSS color class*/
+        color: #c0c0c0;
+        background-color: #ffffff;
+
+        }
+
+      .arrow {
+          cursor: pointer;
+      }
+
+     
+
+      .value {
+          margin: 0 10px
+      }
     }
   
     .remove-button {
