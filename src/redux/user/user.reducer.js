@@ -25,6 +25,7 @@ const userReducer = (state = INITIAL_STATE, action) => {
                 error: null
               }
             case UserActionTypes.SIGN_OUT_FAILURE:
+            case UserActionTypes.SIGN_UP_FAILURE:
     default:
       return state;
   }
